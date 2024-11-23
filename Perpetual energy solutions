@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perpetual Energy Solutions</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #333;
+            background-color: #f4f4f9;
+        }
+        header {
+            background: #0078d7;
+            color: white;
+            padding: 20px 10%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 50px 10%;
+        }
+        .hero {
+            text-align: center;
+            padding: 100px 10%;
+            background: #eafaf1;
+        }
+        .hero h2 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        .services, .projects {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .service, .project {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            flex: 1 1 calc(33% - 20px);
+            text-align: center;
+        }
+        .contact form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .contact form input, .contact form textarea {
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+        .contact form button {
+            padding: 10px 20px;
+            background: #0078d7;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+        }
+        footer {
+            text-align: center;
+            background: #333;
+            color: white;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Perpetual Energy Solutions</h1>
+        <nav>
+            <a href="#about">About Us</a>
+            <a href="#services">Our Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact Us</a>
+        </nav>
+    </header>
+    <section class="hero">
+        <h2>Powering a Sustainable Future</h2>
+        <p>Innovative energy solutions for a cleaner, greener tomorrow.</p>
+    </section>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>At Perpetual Energy Solutions, we are committed to delivering cutting-edge renewable energy solutions that drive sustainability and efficiency. From solar to wind energy, we empower communities and businesses to achieve energy independence.</p>
+    </section>
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Renewable Energy Consulting</h3>
+                <p>Expert guidance to optimize your energy systems.</p>
+            </div>
+            <div class="service">
+                <h3>Solar Panel Installation</h3>
+                <p>Turnkey solar solutions for homes and businesses.</p>
+            </div>
+            <div class="service">
+                <h3>Energy Audits</h3>
+                <p>Comprehensive assessments to reduce energy waste.</p>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <h2>Our Projects</h2>
+        <div class="projects">
+            <div class="project">
+                <h3>Solar Farm Installation</h3>
+                <p>Implemented a 50MW solar farm for a regional utility provider.</p>
+            </div>
+            <div class="project">
+                <h3>Smart Energy Grid</h3>
+                <p>Developed an IoT-enabled grid for optimized energy distribution.</p>
+            </div>
+            <div class="project">
+                <h3>Commercial Energy Retrofit</h3>
+                <p>Upgraded energy systems in 100+ commercial properties.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <p>Email: info@perpetualenergysolutions.com | Phone: (123) 456-7890</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Perpetual Energy Solutions. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
